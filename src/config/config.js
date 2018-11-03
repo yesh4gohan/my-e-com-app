@@ -8,9 +8,9 @@ export default {
       URL: "YOUR_API_GATEWAY_URL"
     },
     cognito: {
-      REGION: "us-east-1",
-      USER_POOL_ID: "us-east-1_WRdksV2Kv",
-      APP_CLIENT_ID: "6bh2ajnl72iua7jvnq6ltpp45n",
+      REGION: "",
+      USER_POOL_ID: "",
+      APP_CLIENT_ID: "",
       IDENTITY_POOL_ID: "YOUR_IDENTITY_POOL_ID"
     }
   };
