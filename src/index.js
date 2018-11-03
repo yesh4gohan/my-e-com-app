@@ -15,7 +15,7 @@ import Phones from 'containers/phones'
 import Phone from 'containers/phone'
 import Login from 'components/Login'
 import Register from 'components/register'
-
+import Basket from "containers/basket";
 import Amplify from "aws-amplify";
 import config from "./config/config"
 
@@ -85,6 +85,7 @@ ReactDOM.render(
             <Route path = "/phone/:id" component = {Phone}/>
             <Route path = "/login" component = {Login}/>
             <Route path = "/register" component = {Register}/>
+            <Route path = "/basket" component = {Basket}/>
         </Router>
     </Provider>,
     document.getElementById('root')
