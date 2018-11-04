@@ -11,6 +11,7 @@ export default {
       REGION: "",
       USER_POOL_ID: "",
       APP_CLIENT_ID: "",
-      IDENTITY_POOL_ID: "YOUR_IDENTITY_POOL_ID"
+      IDENTITY_POOL_ID: ""
+
     }
   };
