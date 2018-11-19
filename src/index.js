@@ -66,8 +66,8 @@ Amplify.configure({
     API: {
       endpoints: [
         {
-          name: "use the api gate way resource name",
-          endpoint: "use api gate way URL",
+          name: "shopping-cart",
+          endpoint: "https://jq5zrjkh31.execute-api.us-east-1.amazonaws.com/stage1",
           region: config.apiGateway.REGION
         },
       ]
@@ -82,7 +82,7 @@ ReactDOM.render(
                 <Route  path="/" component={Phones} />
               
             </Route>
-            <Route path = "/phone/:id" component = {Phone}/>
+            <Route path = "/phone/:productId" component = {Phone}/>
             <Route path = "/login" component = {Login}/>
             <Route path = "/register" component = {Register}/>
             <Route path = "/basket" component = {Basket}/>
